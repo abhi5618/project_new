@@ -20,12 +20,12 @@
               <li class="ms-3"><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-house-chimney text-main"></i><span class="ms-1">Dashboard</span></a></li>
             </ul>
           </div>
-            <div class="col-lg-12 bg-main p-0">
-                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-3  bg-body">
+            <div class="col-lg-12 header p-0">
+                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-3 bg-body">
                     <div class="container-fluid"> 
                       <a class="navbar-brand" href="#">
-      <img src="images/logo.png" alt="Bootstrap" width="50" height="34">
-    </a>
+                        <img src="images/logo.png" alt="Bootstrap" width="50" height="34">
+                      </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -37,24 +37,22 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
                           </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
                           </li>
                         </ul>
                         <form class="d-flex" role="search">
                           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
+                          <button class="btn btn-outline-success btn-main" type="submit">Search</button>
                         </form>
                       </div>
                     </div>
@@ -64,17 +62,17 @@
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="images/hospital.jpg" class="d-block w-100 " height="420" alt="...">
+                      <img src="images/hospital.jpg" class="d-block w-100 " height="500" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="images/staff.png" class="d-block w-100" height="420" alt="...">
+                      <img src="images/staff.png" class="d-block w-100" height="500" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="images/surgery.jpg" class="d-block w-100" height="420" alt="...">
+                      <img src="images/surgery.jpg" class="d-block w-100" height="500" alt="...">
                   </div>
               </div>
             </div>
-<div class="overlay position-absolute"></div>
+        <div class="overlay position-absolute"></div>
         </div>
         <div class="departments position-absolute">
             <div class="container">
