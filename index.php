@@ -14,23 +14,26 @@
     <div class="container-fluid m-0">
        <div class="row">
           <div class="col-lg-12   bg-white p-0">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-end p-3">
-              <li><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-user text-main"></i><span class="ms-1">Register</span></a></li>
-              <li class="ms-3"><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-right-to-bracket text-main"></i><span class="ms-1">Login</span></a></li>
-              <li class="ms-3"><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-house-chimney text-main"></i><span class="ms-1">Dashboard</span></a></li>
-            </ul>
+              <div class="container">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row justify-content-end p-2">
+                          <li><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-user text-main"></i><span class="ms-1">Register</span></a></li>
+                          <li class="ms-3"><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-right-to-bracket text-main"></i><span class="ms-1">Login</span></a></li>
+                          <li class="ms-3"><a class="d-flex td-none text-dark align-items-center" href=""><i class="fa-solid fa-house-chimney text-main"></i><span class="ms-1">Dashboard</span></a></li>
+                        </ul>
+              </div>
           </div>
-            <div class="col-lg-12 header p-0">
-                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-3 bg-body">
-                    <div class="container-fluid"> 
+            <div class="col-lg-12 header p-0 bg-transparent-custom">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-0 bg-body">
+                    <div class="container-fluid justify-content-between"> 
                       <a class="navbar-brand" href="#">
-                        <img src="images/logo.png" alt="Bootstrap" width="50" height="34">
+                        <img src="images/logo.png" alt="Bootstrap" width="80" height="80">
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-3 ">
+                      <div class="ms-5 collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2 justify-content-between w-100">
                           <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                           </li>
@@ -50,19 +53,20 @@
                             <a class="nav-link" href="#">Link</a>
                           </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <!-- <form class="d-flex" role="search">
                           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                           <button class="btn btn-outline-success btn-main" type="submit">Search</button>
-                        </form>
+                        </form> -->
                       </div>
                     </div>
                   </nav>
+                  </div>
             </div>
             <div class="col-lg-12 position-relative p-0">
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="images/hospital.jpg" class="d-block w-100 " height="500" alt="...">
+                      <img src="images/banner.jpg" class="d-block w-100 " height="500" alt="...">
                     </div>
                     <div class="carousel-item">
                       <img src="images/staff.png" class="d-block w-100" height="500" alt="...">
