@@ -64,3 +64,7 @@
         /* background-color: #6963ff; */
         color: #6963ff !important;
     }
+    .b-10
+    {
+        backdrop-filter: blur(10px);
+    }

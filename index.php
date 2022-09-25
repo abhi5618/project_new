@@ -24,7 +24,7 @@
           </div>
             <div class="col-lg-12 header p-0 bg-transparent-custom">
             <div class="container">
-                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-0 bg-body">
+                <nav class="navbar navbar-expand-lg bg-transparent shadow-lg p-0 b-10">
                     <div class="container-fluid justify-content-between"> 
                       <a class="navbar-brand" href="#">
                         <img src="images/logo.png" alt="Bootstrap" width="80" height="80">
